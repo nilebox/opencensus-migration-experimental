@@ -15,5 +15,6 @@ dependencies {
     compile "io.grpc:grpc-context" // delete after OT 0.10.x
     compile project(':opencensus-api')
     compile "io.opencensus:opencensus-impl-core:0.27.1"
+    compile "io.opencensus:opencensus-impl:0.27.1"
 }
 
