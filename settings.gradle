@@ -1,0 +1,3 @@
+rootProject.name = 'opencensus-migration-experimental'
+include 'opencensus-api'
+include 'opencensus-opentelemetry-adapter'

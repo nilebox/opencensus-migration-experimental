@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'io.opencensus.trace'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.opencensus:opencensus-api:0.27.1"
+}
+

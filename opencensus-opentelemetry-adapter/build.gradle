@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.opencensus.trace'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.opentelemetry:opentelemetry-api:0.9.1"
+    compile "io.opentelemetry:opentelemetry-sdk:0.9.1"
+    compile "io.grpc:grpc-context" // delete after OT 0.10.x
+    compile project(':opencensus-api')
+    compile "io.opencensus:opencensus-impl-core:0.27.1"
+}
+
